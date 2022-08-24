@@ -1,17 +1,42 @@
 .nav-title{
-    background-color: blueviolet;
+    font-family: cursive;
+    color: white;
 }
 .nav{
-    height: 50px;
-    width: auto;
+    height: 30px;
+    width: inherit;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(120, 122, 122);
 }
 .nav-links{
+    width: 350px;
+    height: auto;
+    font-family:cursive;
     display: flex;
-    background-color: blue;
-    justify-content: space-between;
+    justify-content: space-between;   
+}
+.active{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+.H{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+.F{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+.btn{
+    
+    background-color: rgb(145, 223, 239);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
