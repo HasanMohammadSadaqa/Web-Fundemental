@@ -1,0 +1,17 @@
+.nav-title{
+    background-color: blueviolet;
+}
+.nav{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-links{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
