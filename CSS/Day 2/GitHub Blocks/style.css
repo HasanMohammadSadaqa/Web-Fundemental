@@ -8,10 +8,13 @@ h1{
     background-color: rgb(239, 231, 231);
     margin: 20px;
 }
-.layer1{
+.layer1,.layer2,.layer3{
     display: flex;
     height: 180px;
     width: 700px;
+}
+
+.layer1{
     background-color: rgb(47, 152, 218);
     margin:  20px;
     padding: 20px;
@@ -19,19 +22,14 @@ h1{
 }
 
 .layer2{
-    display: flex;
     background-color:DarkSalmon;
-    height: 180px;
-    width: 700px;
     margin: 20px;
     padding: 20px;
     justify-content: space-evenly;
 }
 .layer3{
-    display: flex;
+ 
     background-color: white;
-    height: 180px;
-    width: 700px;
     margin: 20px;
     padding: 20px;
     justify-content: space-between;
