@@ -128,3 +128,7 @@ figure img{
 .rightnav-2-header.your-connecion{
     background-color: aqua ;
 }
+.footer{
+    border-top: solid rgb(236, 236, 236);
+    padding: 10px;
+}
