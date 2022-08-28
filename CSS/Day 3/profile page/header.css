@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(81, 81, 81);
+    height: 70px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: cursive;
+}
+.container header a{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+.container header h1{
+    color: rgb(236, 236, 236);
+}
+.container header button{
+    width: 80px;
+    padding: 2px;
+    background-color: rgb(12, 198, 198);
+    color: white;
+    font-family: cursive;
+}
