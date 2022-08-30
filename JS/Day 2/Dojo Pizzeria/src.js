@@ -12,11 +12,11 @@ console.log(s1);
 var s2 = pizzaOven("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]);
 console.log(s2);
 
-var s2 = pizzaOven("deep dish", "marinara", ["mozzarella"], ["peper", "pepperoni", "chiken"]);
-console.log(s2);
+var s3 = pizzaOven(["mozzarella"],"deep dish", ["peper", "pepperoni"],"marinara");
+console.log(s3);
 
-var s2 = pizzaOven("hand tossed", "traditional", ["cheder"], ["olives", "peper"]);
-console.log(s2);
+var s4 = pizzaOven("hand tossed", "cheder", ["olives", "peper"],"traditional");
+console.log(s4);
 
 function randomPizza (){
 }
