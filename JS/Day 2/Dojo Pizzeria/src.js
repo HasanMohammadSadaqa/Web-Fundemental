@@ -1,9 +1,9 @@
-function pizzaOven(crustType, sauceType, cheeses, toppings) {
-    var pizza = {};
-    pizza.crustType = crustType;
-    pizza.sauceType = sauceType;
-    pizza.cheeses = cheeses;
-    pizza.toppings = toppings;
+function pizzaOven(crustType1, sauceType1, cheeses1, toppings1) {
+    var pizza = {crustType:crustType1,sauceType:sauceType1,cheeses:cheeses1, toppings:toppings1};
+    // pizza.crustType = crustType;
+    // pizza.sauceType = sauceType;
+    // pizza.cheeses = cheeses;
+    // pizza.toppings = toppings;
     return pizza;
 }
 
