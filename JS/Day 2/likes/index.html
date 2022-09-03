@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,47 @@
     <title>Likes</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <nav>Network</nav>
+        <h1>Your Feed</h1>
+    </header>
     <main>
-        <header>
-            <h2>Some user</h2>
-            <p>
-                <div id="Number" >3</div> like(s)
-            </p>
-            <button onclick="increaselikes()">Like</button>
-        </header>
-        <footer>
-            <p>This is some filler, it can say anything we like</p>
-        </footer>
-        <header>
-            <h2>Some user</h2>
-            <p>
-                <div id="Numbers" >3</div> like(s)
-            </p>
-            <button onclick="increaselikes()">Like</button>
-        </header>
-        <footer>
-            <p>This is some filler, it can say anything we like</p>
-        </footer>
+        <aside>
+            <img src="Images/user-circle.png" alt="">
+            <a href="">Add an avator</a>
+            <p> <b> James Doe</b></p>
+        </aside>
+        <div class="board">
+            <section>
+                <div class="user">
+                    <h2>Neil M</h2>
+                    <p id="like1">0 like(s)</p>
+                    <button onclick="like1()">Like</button>
+                </div>
+                <p class="statement">I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+            </section>
+            <section>
+                <div class="user">
+                    <h2>Nichole K</h2>
+                    <p id="like2">0 like(s)</p>
+                    <button onclick="like2()">Like</button>
+                </div>
+                <p class="statement">Just finished my <a href=""> next comic</a>, check it out.</p>
+            </section>
+            <section>
+                <div class="user">
+                    <h2>Jim R</h2>
+                    <p id="like3">0 like(s)</p>
+                    <button onclick="like3()">Like</button>
+                </div>
+                <p class="statement">I can't stop listening to the <a href=""> new album</a>. Who else is liking it?</p>
+            </section>
+        </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
