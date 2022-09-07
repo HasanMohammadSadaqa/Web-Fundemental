@@ -1,12 +1,13 @@
 console.log("page loading...");
 
-var cookieDiv = document.querySelector(".cookie-policy");
+
 
 function loading() {
     alert("Loading weather report...")
 }
 
 function accept() {
+    var cookieDiv = document.querySelector(".cookie-policy");
     cookieDiv.remove();
 }
 
