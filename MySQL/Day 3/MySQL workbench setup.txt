@@ -1,0 +1,11 @@
+use twitter; 
+
+select first_name, last_name, birthday from users;
+
+insert into users (first_name, last_name, birthday)
+values("Hasan","Sadaqa", "1998-09-23");
+
+update twitter.users set birthday = "1998-09-23"
+where id = 6;
+
+delete from twitter.users where id = 3;

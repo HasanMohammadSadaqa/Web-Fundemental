@@ -1,0 +1,34 @@
+use users_schema;
+                                                                                     select * from user                                                                        
+ insert into users_schema.user (id,first_name, last_name, `e-mail`, created_at, updates_at)
+values (1, "Hasan", "Sadaqa", "hasansadaqa@gmail.com",Now(),NOW());
+
+ insert into users_schema.user (id,first_name, last_name, `e-mail`, created_at, updates_at)
+values (2, "Osama", "Tbileh", "OsamaTbaileh@gmail.com",Now(),NOW());
+
+
+ insert into users_schema.user (id,first_name, last_name, `e-mail`, created_at, updates_at)
+values (3, "Saeed", "Qatanani", "Saeedqatanani@gmail.com",Now(),NOW());
+
+select * from user 
+
+select first_name from user where 'e-mail' ="hasansadaqa@gmail.com";
+
+select last_name from user where id=3;
+
+update user set last_name = "Pancakes"where id = 3;
+select * from user; // to ensure that the updates done 
+
+delete from user where id = 2;
+select * from user; // to ensure that the deletion done
+
+SELECT * from user
+ORDER BY first_name;
+
+SELECT *
+FROM user
+ORDER BY first_name desc;
+
+ 
+
+             
