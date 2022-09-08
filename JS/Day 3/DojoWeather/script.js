@@ -21,13 +21,14 @@ function f2c(temp) {
 
 function convert(element) {
     console.log(element.value);
-    for(var i=1; i<9; i++) {
-        var tempSpan = document.querySelector("#temp" + i);
-        var tempVal = parseInt(tempSpan.innerText);
+    var tempSpans = document.querySelectorAll(".temp");
+    for(var i=0; i<tempSpans.length; i++) {
+       
+        var tempVal = parseInt(tempSpans[i].innerText);
         if(element.value == "°C") {
-            tempSpan.innerText = f2c(tempVal);
+            tempSpans[i].innerText = f2c(tempVal);
         } else {
-            tempSpan.innerText = c2f(tempVal);
+            tempSpans[i].innerText = c2f(tempVal);
         }
     }
 }
